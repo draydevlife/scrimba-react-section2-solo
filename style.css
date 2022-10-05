@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    padding: 16px 40px;    
+}
+
+.navbar {
+    padding: 16px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F55A5A;
+    color: #FFF;
+}
+
+.navbar__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    font-size: 24px;
+}
+
+.navbar__logo p {
+    font-weight: 500;
+    font-size: 14.4608px;
+    line-height: 18px;
+    letter-spacing: -0.075em;
+}
+
+.trip-list {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.trip-list-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0;
+    border-bottom: 1px solid #F5F5F5;
+}
+
+.trip-list-card:last-of-type {
+    border-bottom: none;
+}
+
+.trip-list-card__image {
+    height: 168px;
+    width: 125px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.trip-list-card__location-icon {
+    font-size: 7px;
+    color: #F55A5A;
+    margin-right: 5px;
+}
+
+.trip-list-card__country {
+    font-size: 10.24px;
+    line-height: 12px;
+    letter-spacing: 0.17em;
+    text-transform: uppercase;
+    margin-right: 12px;
+}
+
+.trip-list-card__maplink {
+    font-size: 10.24px;
+    line-height: 12px;
+    color: #918E9B;
+}
+
+.trip-list-card__heading {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #2B283A;
+    margin: 5px 0 10px;
+}
+
+.trip-list-card__date {
+    font-weight: 700;
+    font-size: 10.24px;
+    line-height: 12px;
+    color: #2B283A;
+    margin-bottom: 10px;
+}
+
+.trip-list-card__description {
+    font-size: 10.24px;
+    line-height: 150%;
+    color: #2B283A;
+    max-width: 326px;
+}
